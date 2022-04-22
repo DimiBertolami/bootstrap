@@ -1,117 +1,101 @@
 function removeLine($elementId) {
-    if ($elementId= "card8Line"){
+    if ($elementId = "card8Line"){
         let $Item = document.getElementById("card8Line");
-//        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 8")
         return
     };
-    if ($elementId= "card7Line"){
+    if ($elementId = "card7Line"){
         let $Item = document.getElementById("card7Line");
-//        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 7")
         return;
     };
-    if ($elementId= "card6Line"){
+    if ($elementId = "card6Line"){
         let $Item = document.getElementById("card6Line");
-//        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 6")
         return;
     };
-    if ($elementId= "card5Line"){
+    if ($elementId = "card5Line"){
         let $Item = document.getElementById("card5Line");
-//        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 5")
         return;
     };
-    if ($elementId= "card4Line"){
+    if ($elementId = "card4Line"){
         let $Item = document.getElementById("card4Line");
-//        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 4")
         return;
     };
-    if ($elementId= "card3Line"){
+    if ($elementId = "card3Line"){
         let $Item = document.getElementById("card3Line");
-//        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 3")
         return;
     };
-    if ($elementId= "card2Line"){
+    if ($elementId = "card2Line"){
         let $Item = document.getElementById("card2Line");
-//        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 2")
         return;
     };
-    if ($elementId= "card1Line"){
+    if ($elementId = "card1Line"){
         let $Item = document.getElementById("card1Line");
-        console.log($Item.innerText);
         $Item.hidden = true;
-        console.log("removing line from " + $Item.innerText)
+        console.log("removing line from card 1")
         return;
     };
 }
 
 function addLine($elementId) {
-    if ($elementId= "card8Line"){
+    if ($elementId = "card8Line"){
         let $Item = document.getElementById("card8Line");
-//        console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " + $Item.innerText)
+        console.log("adding line to 8")
         return;
     };
-    if ($elementId= "card7Line"){
+    if ($elementId = "card7Line"){
         let $Item = document.getElementById("card7Line");
-//        console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " + $Item.innerText)
+        console.log("adding line to 7")
         return;
     };
-    if ($elementId= "card6Line"){
+    if ($elementId = "card6Line"){
         let $Item = document.getElementById("card6Line");
-//        console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " + $Item.innerText)
+        console.log("adding line to 6")
         return;
     };
-    if ($elementId= "card5Line"){
+    if ($elementId = "card5Line"){
         let $Item = document.getElementById("card5Line");
-//        console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " + $Item.innerText)
+        console.log("adding line to 5")
         return;
     };
-    if ($elementId= "card4Line"){
+    if ($elementId = "card4Line"){
         let $Item = document.getElementById("card4Line");
-//        console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " +  $Item.innerText)
+        console.log("adding line to 4")
         return;
     };
-    if ($elementId= "card3Line"){
+    if ($elementId = "card3Line"){
         let $Item = document.getElementById("card3Line");
-//        console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " +  $Item.innerText)
+        console.log("adding line to 3")
         return;
     };
-    if ($elementId= "card2Line"){
+    if ($elementId = "card2Line"){
         let $Item = document.getElementById("card2Line");
- //       console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " + $Item.innerText)
+        console.log("adding line to 2")
         return;
     };
-    if ($elementId= "card1Line"){
+    if ($elementId = "card1Line"){
         let $Item = document.getElementById("card1Line");
-//        console.log($Item.innerText);
         $Item.hidden = false;
-        console.log("adding line to " +  $Item.innerText)
+        console.log("adding line to 1")
         return;
     };
 }
